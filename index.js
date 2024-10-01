@@ -18,20 +18,20 @@ const southParkSongs = JSON.parse(fs.readFileSync(path.join(__dirname, "json/sou
 
 // Create GET requests
 app.get("/", (req, res) => {
-  res.send("up and running! Welcome to the Miku API. Read docs on how to use: https://github.com/LeahJKH/MikuApiGithub");
+  res.send("Welcome to my South Park Api! currently it has information about Characters, episodes and some songs. i will add more. feel free to use the README.md file if you need instructions");
 });
 
 // Get json files
-app.get("/vocaloids", (req, res) => {
-  res.json(vocaloids);
+app.get("/southParkEpisodes", (req, res) => {
+  res.json(southParkEpisodes);
 });
 
-app.get("/mikuTimeLine", (req, res) => {
-  res.json(mikuTimeLine);
+app.get("/southParkCharacters", (req, res) => {
+  res.json(southParkCharacters);
 });
 
-app.get("/mikuFacts", (req, res) => {
-  res.json(mikuFacts);
+app.get("/southParkSongs", (req, res) => {
+  res.json(southParkSongs);
 });
 // Get json files
 

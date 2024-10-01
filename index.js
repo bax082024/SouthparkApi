@@ -33,7 +33,6 @@ app.get("/southParkCharacters", (req, res) => {
 app.get("/southParkSongs", (req, res) => {
   res.json(southParkSongs);
 });
-// Get json files
 
 // Initialize server
 app.listen(8001, () => {

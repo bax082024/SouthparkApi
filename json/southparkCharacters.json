@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Eric Cartman",
+    "age": 10,
+    "description": "A manipulative, foul-mouthed student at South Park Elementary."
+  },
+  {
+    "name": "Stan Marsh",
+    "age": 10,
+    "description": "The moral center of the group, often trying to do the right thing."
+  },
+  {
+    "name": "Kenny McCormick",
+    "age": 10,
+    "description": "Often dies in most episodes only to return the next time."
+  },
+  {
+    "name": "Kyle Broflovski",
+    "age": 10,
+    "description": "The intellectual, strong-willed, and often the most rational of the boys."
+  }
+]

@@ -12,9 +12,9 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
 
 // Read JSON files
-const vocaloids = JSON.parse(fs.readFileSync(path.join(__dirname, "json/vocaloids.json"), "utf-8"));
-const mikuTimeLine = JSON.parse(fs.readFileSync(path.join(__dirname, "json/mikuTimeLine.json"), "utf-8"));
-const mikuFacts = JSON.parse(fs.readFileSync(path.join(__dirname, "json/mikuFacts.json"), "utf-8"));
+const southParkEpisodes = JSON.parse(fs.readFileSync(path.join(__dirname, "json/southParkEpisodes.json"), "utf-8"));
+const southParkCharacters = JSON.parse(fs.readFileSync(path.join(__dirname, "json/southParkCharacters.json"), "utf-8"));
+const southParkSongs = JSON.parse(fs.readFileSync(path.join(__dirname, "json/southParkSongs.json"), "utf-8"));
 
 // Create GET requests
 app.get("/", (req, res) => {

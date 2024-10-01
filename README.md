@@ -3,10 +3,10 @@ Southpark is cool!
 ### Access the Api:
 
 **Episodes**
-http://localhost:8001/southParkEpisodes.
+http://localhost:8001/southparkEpisodes.
 
 **Characters**
-http://localhost:8001/southParkCharacters.
+http://localhost:8001/southparkCharacters.
 
 **Songs**
 http://localhost:8001/southParkSongs.

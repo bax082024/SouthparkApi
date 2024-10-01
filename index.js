@@ -22,11 +22,11 @@ app.get("/", (req, res) => {
 });
 
 // Get json files
-app.get("/southparkEpisodes", (req, res) => {
+app.get("/southParkEpisodes", (req, res) => {
   res.json(southParkEpisodes);
 });
 
-app.get("/southparkCharacters", (req, res) => {
+app.get("/southParkCharacters", (req, res) => {
   res.json(southParkCharacters);
 });
 

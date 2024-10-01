@@ -15,6 +15,11 @@ I made this Api because Leah made me do it, but it was fun and i will update it 
 ### Access the Api:
 
 
+**How to use the api**
+- npm install
+- npm run southpark
+
+
 **Episodes**
 http://localhost:8001/southparkEpisodes
 
